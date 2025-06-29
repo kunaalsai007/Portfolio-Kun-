@@ -678,7 +678,7 @@ function App() {
                   </div>
                 </div>
                 <motion.a
-                  href="https://github.com/kunaal27"
+                  href="https://github.com/kunaalsai007"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 text-gray-300 hover:text-gray-200 transition-colors"
@@ -730,7 +730,7 @@ function App() {
             <span>using React, Tailwind & Passion</span>
           </p>
           <motion.a
-            href="https://kunaal27.github.io/portfolio"
+            href="https://github.com/kunaalsai007/Portfolio-Kun-"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 text-purple-300 hover:text-purple-200 transition-colors text-sm"
