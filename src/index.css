@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600;
+}
+
+.skill-progress {
+  @apply h-2 bg-zinc-700 rounded-full overflow-hidden relative;
+}
+
+.skill-progress-bar {
+  @apply absolute top-0 left-0 h-full bg-gradient-to-r from-purple-400 to-pink-600 transition-all duration-1000;
+}
